@@ -6,3 +6,6 @@ This was Case Study for E-governance in Nepal. The topic assigned is Citizenship
 2. CSS
 3. JS
 4. PHP
+
+## Database System
+MySQL

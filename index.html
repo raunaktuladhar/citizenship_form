@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>नेपाली नागरिकताको प्रमाण-पत्र फारम</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>नेपाली नागरिकताको प्रमाण-पत्र फारम</h2>
+        <form id="citizenshipForm" action="submit.php" method="POST">
+            
+            <h3>व्यक्तिगत विवरण</h3>
+            <label for="fullName">नाम, थर (Full Name):</label><br>
+            <input type="text" id="fullName" name="fullName" required>
+<br>
+            <label for="sex">लिङ्ग (Gender):</label><br>
+            <select id="sex" name="sex" required>
+                <option value="">--लिङ्ग छनौट गर्नुहोस्--</option>
+                <option value="male">पुरुष (Male)</option>
+                <option value="female">महिला (Female)</option>
+                <option value="other">अन्य(Others)</option>
+            </select>
+            <br>
+            <label for="birthPlace">जन्म स्थान (Birth Place):</label><br>
+            <input type="text" id="birthPlace" name="birthPlace" required>
+<br>
+            <label for="permanentAddress">स्थायी ठेगाना (Permanent Address):</label><br>
+            <input type="text" id="permanentAddress" name="permanentAddress" required>
+<br>
+            <label for="dob">जन्म मिति (ई.सं.) (Date Of Birth (A.D.)):</label><br>
+            <input type="date" id="dob" name="dob" required>
+<br><br><br>
+            <h3>परिवार विवरण</h3>
+            <label for="fatherName">बुबाको नाम, थर (Father's Full Name):</label><br>
+            <input type="text" id="fatherName" name="fatherName" required>
+<br>
+            <label for="motherName">आमाको नाम, थर (Mother's Full Name):</label><br>
+            <input type="text" id="motherName" name="motherName" required>
+<br>
+            <label for="spouseName">पति/पत्नीको नाम, थर (यदि लागू हुन्छ) (Husband/Wife's Full Name (If applicable)):</label>
+            <input type="text" id="spouseName" name="spouseName">
+<br><br><br>
+            <h3>अन्य विवरण</h3>
+            <label for="wardNo">गाउँपालिका/नगरपालिका वडा नं (Rural Municipality/Municipality Ward No):</label><br>
+            <input type="text" id="wardNo" name="wardNo" required><br>
+
+            <label for="applicantName">निवेदकको नाम, थर (Applicant's Full Name):</label><br>
+            <input type="text" id="applicantName" name="applicantName" required>
+<br><br><br><br>
+            <button type="submit">पेश गर्नुहोस् (Submit)</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

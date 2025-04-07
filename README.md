@@ -9,3 +9,7 @@ This was Case Study for E-governance in Nepal. The topic assigned is Citizenship
 
 ## Database System
 MySQL
+
+### To run the codes:
+1. Open XAMPP
+2. Start Apache and MySQL Module
